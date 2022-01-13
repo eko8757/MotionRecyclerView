@@ -1,8 +1,9 @@
-package com.eko8757.motionrecyclerview
+package com.eko8757.motionrecyclerview.adapter
 
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
+import com.eko8757.motionrecyclerview.data.FoodModel
 import com.eko8757.motionrecyclerview.databinding.FoodItemLayoutBinding
 
 class FoodAdapter : RecyclerView.Adapter<FoodViewHolder>() {
